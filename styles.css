@@ -1,0 +1,76 @@
+@media (prefers-reduced-motion:reduce) {
+  * { scroll-behavior: smooth; }
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: fixed;
+  width: 20%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  overflow-y: auto; /* Use auto instead of scroll for better performance */
+  height: 100%;
+}
+
+nav ul li {
+  border-top: 1px solid;
+  padding: 10px 5px;
+  font-size: 18px;
+  font-family: sans-serif; /* Use font-family instead of font-style */
+}
+
+nav header {
+  font-size: 30px;
+  text-align: left;
+  padding: 10px 2%;
+}
+
+main {
+  margin-left: 22%;
+  margin-bottom: 50px;
+  margin-right: 20px;
+}
+
+p {
+  margin: 15px 10px;
+}
+
+.nav-list:hover {
+  cursor: pointer;
+}
+
+ul a {
+  text-decoration: none;
+  color: black;
+}
+
+h2 {
+  padding-top: 25px;
+}
+
+code {
+  background-color: #edf0f5;
+  padding: 20px;
+  margin: 20px;
+  display: block;
+  width: 75%;
+  border: 1px solid #9ea0a3;
+  border-radius: 5px;
+}
+
+.header-tags {
+	margin-left: 25px;;
+}

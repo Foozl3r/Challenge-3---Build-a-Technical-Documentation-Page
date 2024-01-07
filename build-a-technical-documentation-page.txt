@@ -1,0 +1,184 @@
+** start of undefined **
+
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Challenge #3 - Build a Technical Documentation Page</title>
+		<link rel="stylesheet" href="styles.css"/>	
+	</head>
+	<body>
+		<nav id="navbar">
+			<header>Header Tags</header>
+			<ul class="nav-menu">
+			<li id="nav-link"><a href='#Introduction' class="nav-link">Introduction</a></li>
+			<li id="nav-link"><a href='#What_are_header_tags?' class="nav-link">What are header tags?</a></li>
+			<li id="nav-link"><a href='#What_are_H1_tags?' class="nav-link">What are H1 tags?</a></li>
+			<li id="nav-link"><a href='#How_many_header_tags_are_supported_by_HTML?' class="nav-link">How many header tags are supported by HTML?</a></li>
+			<li id="nav-link"><a href='#Header_Tags_and_SEO' class="nav-link">Header Tags and SEO</a></li>
+			<li id="nav-link"><a href='#How_to_Add_Header_Tags_in_HTML' class="nav-link">How to Add Header Tags in HTML</a></li>
+			<li id="nav-link"><a href='#Conclusion' class="nav-link">Conclusion</a></li>
+			<li id="nav-link"><a href='#Reference' class="nav-link">Reference</a></li>
+			</ul>
+		</nav>
+		<main id="main-doc">
+			<section class="main-section"  id="Introduction">
+			<header><h2>Introduction</h2></header>
+				<p>When I first started blogging, I had no idea how to structure my posts to rank for search engines, or even why it was important.</p>
+				<p>I just threw in bolded words and phrases that looked good and hoped to be randomly selected for the search engine results pages (SERPs).</p>
+				<p>Now I know there is a science to blog optimization, and what I was throwing into my blog posts to make them look professional was called header/heading tags — and are an important tool for comprehension and SEO.</p>
+			</section>
+			<section class="main-section" id="What_are_header_tags?">
+			<header><h2>What are header tags?</h2></header>
+			 <p>Header tags, also known as heading tags, are used to separate headings and subheadings on a webpage. They rank in order of importance, from H1 to H6, with H1s usually being the title. Header tags improve the readability and SEO of a webpage.</p>
+			 <p>Here's a quick guide on header tags and what they're used for:</p>
+			<ul>
+				<li>H1 — The title of a post. They're usually keyword-centric, focused around the "big idea" of a page or post, and crafted to grab a reader's attention.</li>
+				<li>H2 — These are subheaders that classify the main points of your paragraphs and separate sections. Consider using semantic keywords related to the "big idea" in your H1 while also helping the reader easily find the sections they want to read.</li>
+				<li>H3 — These are subsections that clarify the points made in the H2 further. Alternatively, they can be used in formatting lists or bullet points.</li>
+				<li>H4 —These are subsections that clarify the points made in the H3 further. Alternatively, they can be used in formatting lists or bullet points.</li>
+			</ul>
+				<p>The "H" in H1, H2, etc. officially stands for "heading element," though the SEO community also commonly calls these tags "header tags."</p>
+				<p>As you can guess from the guide above, the numeral indicates the hierarchal relationship between each one (with H1 being the most important, H2 being less important, and so on).</p>
+				<p>Here's an example of how this hierarchal structure might manifest in a blog outline:</p>
+				<p>Now that you understand that header tags provide structure to a page, let's talk about them with greater specificity, starting with the H1 tag. </p>
+			</section>
+			<section class="main-section" id="What_are_H1_tags?">
+			<header><h2>What are H1 tags?</h2></header>
+				<p>An H1 tag is the first and most important heading tag in the structural hierarchy of a page or post. It typically notes the page or post's title.	</p>
+				<code>&lt;h2&gt;What are H1 tags?&lt;/h2&gt;</code>
+				<p>Don't make the mistake of using header tags as nothing more than stylistic elements. After all, they are structural in nature. Think of the H1 as you would a book title. Usually, there's only one title for a book, so there should only be one title for your page or post. 	</p>
+				<p>In addition, H1 tags should always be at the top of your page before the rest of your content, just as the book title is on the outside cover before you dive into the text inside.	</p>
+				<p>To illustrate, the header tag in the example below is the title, "The Ultimate Guide to Product Marketing in 2021."	</p>
+				<p>The title is designated as the H1 for the page using HTML code. This code might manifest in the web page's source code like so:	</p>
+			<code class="box">&lt;h1&gt;Blog or Page Title Text&lt;/h1&gt;</code>
+				<p>However, as we alluded to earlier, there are other heading tags that also help with creating the structure of a page.	</p>
+			</section>
+			<section class="main-section" id="How_many_header_tags_are_supported_by_HTML?">
+			<header><h2>How many header tags are supported by HTML?</h2></header>
+				<p>HTML supports up to six header tags (H1-H6) for you to use to structure your page as needed. They can be stylized visually according to your brand, and with the exception of the H1, you can have as many of these tags on a page as you want. 	</p>
+				<p>Your headers should stick to the theme of what you're writing about because they can help the reader (and the search engines) find the main points within the content and guide them through the flow of the page. When you're formatting, use your best judgment when breaking up sections.	</p>
+				<p>Below is a screenshot of a HubSpot blog post with examples of header tags indicated with arrows:	</p>
+				<p>As you can see, every header tag looks different visually, and each header tag is used for a new idea.	</p>
+				<p>Now that you know a little more about what header tags are, let's get into how they're used for SEO.	</p>
+			</section>
+			<section class="main-section" id="Header_Tags_and_SEO">
+			<header><h2>Header Tags and SEO</h2></header>
+				<p>You may think that header tags are inconsequential in the grand scheme of website-related things. However, header tags can help provide structure to a piece of content and call attention to the most important ideas, themes, and (in effect) keywords in that content. As a result, header tags hold weight with keyword relevancy and readability. 	</p>
+				<p>Consider this: Google finds content to serve up to its users by crawling web pages. As it does so, it analyzes the text, images, and other elements it finds to understand what that page is about.	</p>
+				<p>When you put text into a header tag, you're signaling that this text is important, and Google will use these to determine the context of the page, which then helps Google serve up results that are relevant to searchers' queries.	</p>
+				<p>That's why it's important when using header tags to make sure they're correctly matching a keyword intent. If a post's H1 tag doesn't have a keyword, or if you put irrelevant text in H2 and H3 tags, Google will have a harder time understanding a page. As a result, that page won't rank as well as it could. 	</p>
+				<p>To illustrate, let's say your keyword is "eCommerce." You'd want this to be reflected in your H1 tag, so a title like "The Guide to Starting an eCommerce Business" would be ideal. That would tell Google exactly how to send web browsers to your post.	</p>
+				<p>Search engines also look at header tags within your post, so it's good to keep those keyword-centric, as well. For instance, you might create some H2 sections surrounding popular long-tail keywords related to eCommerce, like "five steps for creating an eCommerce business" or "best social media tools for eCommerce."	</p>
+				<p>You don't have to think of keywords by yourself, either — in fact, you can do some easy keyword research to help you out or look into keyword research tools like SEMRush or Ahrefs. Just make sure that your header tags are friendly to both humans and the search engine robots.	</p>
+				<p>Headers also make pages easier to read. Sectioning off different parts of a webpage keeps information organized and broken up in a comprehensible way. This helps readers find information they're looking for but also search engines which are scanning along, too.	</p>
+				<p>If your sections aren't making sense, your page might not rank. Think of the sections in this post — do you think they were broken up in a readable way?	</p>
+			</section>
+			<section class="main-section" id="How_to_Add_Header_Tags_in_HTML">
+			<header><h2>How to Add Header Tags in HTML</h2></header>
+				<p>	Adding header tags in HTML is a fairly simple process. If you want to notate an H1, you would type in &lt;h1&gt; and &lt;/h1&gt;, putting the H1 text in-between those two tags. This is the same method for any type of header tag.	</p>
+				<p>	For example, if your h1 was "The Guide to Starting eCommerce," it would look like this:	</p>
+			<code class="box">&lt;h1&gt;The Guide to Starting eCommerce&lt;/h1&gt;</code>
+				<p>	This will work for HTML4 or older. If you're working with HTML5, you might have to use a slightly different line to get the same result. The change is to give a heads up to Google about what the H1 is:	</p>
+			<code class="box">&lt;header&gt;&lt;h1&gt;The Guide to Starting eCommerce&lt;/h1&gt;&lt;/header&gt;</code>
+				<p>	You can also include punctuation between the two tags. For instance, you might have:	</p>
+			<code class="box">&lt;h3&gt;Create an Instagram account to market your eCommerce products.&lt;/h3&gt;</code>	
+				<p>	Remember, Google will scan the HTML of header tags to tell web browsers what your page is about, so it's important to look them over and see if your headers in HTML are formatted correctly.	</p>
+				<p>	Some blogging platforms, like WordPress and HubSpot, have an option on the toolbar to create header tags, so every time you want to add one, you don't have to dig into the source code or HTML to do so.	</p>
+			</section>
+			<section class="main-section" id="Conclusion">
+			<header><h2>Conclusion</h2></header>
+				<p>The next time you create a post for your website, see if adding relevant header tags affects SEO, and how your readers are comprehending information.	</p>
+				<p>A good test I like to use is sending posts to a close family member who doesn't know much about blogging or marketing. Using outsider feedback and asking if they can comprehend my writing before I publish helps me format posts so they're understandable.	</p>
+				<p>Because using headers can help with readability for your users as well as crawlability for search engines, there's no reason not to use them when creating pages and posts. You may even see jumps in search engine rankings, traffic, and time on page.	</p>
+			</section>
+			<section class="main-section"  id="Reference">
+			<header><h2>Reference</h2></header>
+				<li>All the content in this page was taken from <a href='https://blog.hubspot.com/marketing/header-tags'>hubspot.com</a></li>
+			</section>
+		
+		
+		</main>
+			
+	</body>
+	</html>
+
+** end of undefined **
+
+** start of undefined **
+
+@media (prefers-reduced-motion:reduce) {
+	* {
+		scroll-behavior: smooth;
+		}
+}
+
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	overflow-y: scroll;
+	display: block;
+	position: fixed;
+	height: 100%;
+	width: 20%;
+	margin-top: 50px;
+}
+
+nav {
+	display: block;
+	
+}
+
+nav ul li {
+	border-top: 1px solid;
+	padding: 10px 5px;
+	font-size: 18px;
+	font-style: sans-serif;
+}
+
+nav header {
+	font-size: 30px;
+	text-align: left;
+	width: 20%;
+	position:fixed;
+	padding-left: 2%;
+	
+}
+
+main {
+	margin-left: 22%;
+	margin-bottom: 50px;
+	margin-right: 20px;
+	}
+
+p {
+	margin: 15px 10px;
+}
+
+.nav-list:hover {
+	cursor: pointer;
+}
+
+ul a {
+	text-decoration: none;
+	color: black;
+}
+
+h2 {
+	padding-top: 25px;
+}
+
+code {
+	background-color: #edf0f5;
+	padding: 20px;
+	margin: 20px;
+	display: block;
+	width: 75%;
+	
+	
+}
+
+** end of undefined **
+
